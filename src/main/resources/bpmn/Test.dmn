@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="Definitions_1uyu0ft" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.0.0">
+  <decision id="Decision_1j5tj54" name="DecisionId">
+    <decisionTable id="DecisionTable_1a9e3wa">
+      <input id="Input_1" label="ID">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>id</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Id OP" name="idop" typeRef="string" />
+      <rule id="DecisionRule_0cze7u4">
+        <inputEntry id="UnaryTests_0slwqsg">
+          <text>"1"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_10otcuc">
+          <text>"111"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
