@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="Definitions_1uyu0ft" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.0.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/DMN13.xsd" id="definitions" name="definitions" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.0.0">
   <decision id="Decision_1j5tj54" name="DecisionId">
     <decisionTable id="DecisionTable_1a9e3wa">
       <input id="Input_1" label="ID">

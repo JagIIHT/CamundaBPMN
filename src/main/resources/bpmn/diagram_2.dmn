@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_0ntg6zp" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.0.0">
+  <decision id="Decision_0iigivh" name="Decision 1">
+    <decisionTable id="DecisionTable_1y88q98">
+      <input id="Input_1" camunda:inputVariable="id">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" typeRef="string" />
+      <rule id="DecisionRule_1f87hk2">
+        <inputEntry id="UnaryTests_0dqk2ts">
+          <text>"1"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0t0svw7">
+          <text>"1212"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_190593r">
+        <inputEntry id="UnaryTests_188y9e8">
+          <text>"2"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1k118px">
+          <text>"222"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0s547h1">
+        <inputEntry id="UnaryTests_1lhikue">
+          <text>"3"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_19070d1">
+          <text>"6777"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_0iigivh">
+        <dc:Bounds height="80" width="180" x="100" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
